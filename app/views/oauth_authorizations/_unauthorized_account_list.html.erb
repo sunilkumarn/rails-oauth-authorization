@@ -1,0 +1,5 @@
+<div class="auth_providers">
+  <% auth_providers_list.each do |auth_provider| %>
+      <%= link_to image_tag("#{auth_provider}_32.png", alt: "#{auth_provider.capitalize}"), omniauth_provider_url(auth_provider), :class => "auth_provider" %>
+  <% end %>
+</div>

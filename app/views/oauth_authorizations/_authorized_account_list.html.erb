@@ -1,0 +1,6 @@
+<div class="auth_providers">
+  <% auth_providers_list.each do |auth_provider| %>
+      <%= image_tag("#{auth_provider}_32.png", alt: "#{auth_provider.capitalize}") %>
+      <%= link_to image_tag("remove.png"), omniauth_destroy_url(auth_provider), :class => "auth_provider" %>
+  <% end %>
+</div>

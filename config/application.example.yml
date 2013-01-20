@@ -1,0 +1,14 @@
+omniauth:
+  facebook:
+    secret_id: ''
+    secret_key: ''
+  twitter:
+    secret_id: ''
+    secret_key: ''
+  google_oauth2:
+    secret_id: ''
+    secret_key: ''
+
+deployment:
+  base_url: '/808-apps'
+  full_host: 'http://localhost:3000'
